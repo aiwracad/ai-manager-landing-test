@@ -737,3 +737,7 @@ tbody tr:nth-child(even) { background: var(--wash); }
  .kit-visual img { width:100%; max-height:none; }
  .game-grid { grid-template-columns:minmax(0,.82fr) minmax(0,1.18fr); }
 }
+
+/* Agreed text revision: hero thesis and values without descriptive labels. */
+.hero-editorial .hero-copy > strong { display:block; margin-bottom:9px; font-weight:750; color:#f4f1ea; }
+.hero-editorial .hero-fact-value { color:#f4f1ea; font-size:.91rem; line-height:1.3; font-weight:750; }
